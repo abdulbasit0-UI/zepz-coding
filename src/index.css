@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.fc-gold {
+  color: #ffcc00 !important;
+}
+
+.user-card {
+  border: 0px !important;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+}
+
+.user-card h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.user-card img {
+  border-radius: 100px;
+}
+
+.bg-disabled {
+  background-color: #eee;
+}
+
+.badge {
+  background-color: #eee;
+  border-radius: 100px !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 60px !important;
+  height: 60px !important;
+  margin: 10px 10px;
+  flex-direction: column;
+  padding: 10px !important;
+  justify-content: center !important;
+}
+
+.badge p{
+  margin-top: 5px !important;
+  color: #313131;
+}
